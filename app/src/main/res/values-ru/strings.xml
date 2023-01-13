@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="common_try_again">Обновить</string>
+    <string name="common_cancel">Отменить</string>
+    <string name="common_continue">Далее</string>
+
+    <!-- Common Error -->
+    <string name="common_error_no_internet">Проверьте интернет соединение и попробуйте снова.</string>
+    <string name="common_error_not_able_remove_bg">BgRem не может удалить фон в данный момент. Попробуйте еще раз.</string>
+    <string name="common_error_something_went_wrong">Что-то пошло не так</string>
+    <string name="common_error_video_duration">Длина видео - до 30 секунд</string>
+    <string name="common_error_process_file">Не удалось обработать файл</string>
+    <string name="common_error_save_image_error">Не могу сохранить</string>
+    <string name="common_error_save_video_error">Не могу сохранить</string>
+    <string name="common_error_download_video_error">Что-то пошло не так</string>
+    <string name="common_error_download_image_error">Что-то пошло не так</string>
+    <string name="common_error_email_client_not_found">Извините, но мы не смогли найти почтовый клиент на вашем устройстве.</string>
+    <string name="common_error_not_found_app_on_device">Извините, но мы не смогли найти приложение для этого на вашем устройстве.</string>
+    <string name="common_error_no_granted_read_storage_permission">Для работы приложению необходимо разрешение на чтение файлов</string>
+    <string name="common_error_file_not_found">Не удалось найти файл на устройстве</string>
+    <string name="common_error_no_granted_write_storage_permission">Для работы приложению необходимо разрешение на запись в файлы</string>
+
+    <!-- Sending -->
+    <string name="sending_subtitle">Видео &amp; Фото</string>
+    <string name="sending_title">Автоматическая замена фона</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Автоматическая замена фона</string>
+    <string name="welcome_get_started">Начнем</string>
+    <string name="welcome_caption">Приступая к работе, я соглашаюсь с\nУсловиями использования и Политикой конфиденциальности</string>
+    <string name="welcome_terms_and_condition">Условиями использования</string>
+    <string name="welcome_privacy_policy">Политикой конфиденциальности</string>
+
+    <!-- Choose Media -->
+    <string name="choose_media_title">Загрузите файл</string>
+    <string name="choose_media_video">Видео</string>
+    <string name="choose_media_image">Фото</string>
+    <string name="choose_media_note">Примечание. Длина видео - до 30 секунд</string>
+    <string name="choose_media_note_title">Примечание.</string>
+    <string name="choose_media_gallery">Галерея</string>
+    <string name="choose_media_camera">Камера</string>
+
+    <!-- Sending Media -->
+    <string name="sending_media_video">Отправляем видео на сервер</string>
+    <string name="sending_media_image">Отправляем фото на сервер</string>
+
+    <!-- Select Background -->
+    <string name="select_background_title">Выберите фон</string>
+    <string name="select_background_color">Цвет</string>
+    <string name="select_background_your_bg">Ваш фон</string>
+    <string name="select_background_image">Картинка</string>
+    <string name="select_background_video">Видео</string>
+    <string name="select_background_transparent">Нет фона</string>
+    <string name="select_background_upload_bg">Загрузить фон</string>
+    <string name="select_background_note">Примечание</string>
+    <string name="select_background_video_duration">Длина видео - до 30 секунд</string>
+    <string name="select_background_photo">Фото</string>
+
+    <!-- Removing Background -->
+    <string name="removing_background">Удаляем фон</string>
+
+    <!-- Background result -->
+    <string name="result_add_new_file">Новый файл</string>
+    <string name="result_attention_description">Не забудьте сохранить полученный результат</string>
+    <string name="result_menu_save">Сохранить</string>
+    <string name="result_menu_share">Поделиться</string>
+    <string name="result_menu_share_app">BgRem</string>
+    <string name="result_image">Ваше фото</string>
+    <string name="result_video">Ваше видео</string>
+    <string name="result_save_image_success">Сохранено</string>
+    <string name="result_save_video_success">Сохранено</string>
+
+    <!-- About -->
+    <string name="about_title">Зачем Вам BgRem</string>
+    <string name="about_description">BgRem автоматически уберет фон у видео или фото.</string>
+    <string name="about_slogan">Измените Ваши видео и фото с BgRem!</string>
+    <string name="about_slogan_bold_part">BgRem</string>
+    <string name="about_contact_email">Если остались вопросы или есть предложения, пишите - support@deelvin.com.</string>
+    <string name="about_privacy_policy">Политика конфиденциальности</string>
+    <string name="about_version">Версия %s</string>
+
+    <!--    Tests -->
+    <string name="text_toolbar_test">Зачем Вам BgRem</string>
+    <string name="title_choose_fragment_test">Загрузите файл</string>
+    <string name="choose_media_note_test">Примечание. Длина видео - до 30 секунд</string>
+    <string name="choose_media_gallery_test">Галерея</string>
+    <string name="choose_media_camera_test">Камера</string>
+    <string name="common_cancel_test">Отменить</string>
+    <string name="select_background_note_test">Примечание</string>
+    <string name="select_background_photo_test">Фото</string>
+    <string name="select_background_video_test">Видео</string>
+    <string name="select_background_video_duration_test">Длина видео - до 30 секунд</string>
+
+</resources>

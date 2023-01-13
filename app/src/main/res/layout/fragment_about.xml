@@ -1,0 +1,89 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bgrem.presentation.main.about.AboutFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/aboutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="@string/about_title" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/about_description"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Body3"
+        app:layout_constraintBottom_toTopOf="@+id/infoGifImageView"
+        app:layout_constraintTop_toBottomOf="@+id/aboutToolbar"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/infoGifImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/sloganText"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionText"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.App.CornerSize15"
+        tools:src="@drawable/gif_info" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/sloganText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/about_slogan"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Body1"
+        app:layout_constraintBottom_toTopOf="@+id/contactEmailText"
+        app:layout_constraintTop_toBottomOf="@+id/infoGifImageView" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/contactEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/about_contact_email"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Caption"
+        app:layout_constraintBottom_toTopOf="@+id/privacyPolicyText"
+        app:layout_constraintTop_toBottomOf="@+id/sloganText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/privacyPolicyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/about_privacy_policy"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Caption"
+        android:textColor="@color/accent_blue"
+        app:layout_constraintBottom_toTopOf="@+id/versionText"
+        app:layout_constraintTop_toBottomOf="@+id/contactEmailText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/versionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Caption"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/privacyPolicyText"
+        tools:text="Version 2.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

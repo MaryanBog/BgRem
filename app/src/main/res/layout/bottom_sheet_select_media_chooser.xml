@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/noteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Caption"
+        android:textColor="@color/base_black"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/choose_media_note" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/galleryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:drawableTop="@drawable/ic_gallery"
+        android:drawablePadding="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_media_gallery"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Caption"
+        android:textColor="@color/base_black"
+        app:layout_constraintBottom_toTopOf="@id/cancelButton"
+        app:layout_constraintEnd_toStartOf="@+id/cameraText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noteText"
+        app:layout_goneMarginTop="44dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/cameraText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:drawableTop="@drawable/ic_camera"
+        android:drawablePadding="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_media_camera"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Caption"
+        android:textColor="@color/base_black"
+        app:layout_constraintBottom_toTopOf="@id/cancelButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/galleryText"
+        app:layout_constraintTop_toBottomOf="@id/noteText"
+        app:layout_goneMarginTop="44dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="54dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/common_cancel"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

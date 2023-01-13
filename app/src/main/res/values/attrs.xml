@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ErrorView">
+        <attr name="ev_state" format="enum">
+            <enum name="no_internet" value="0" />
+            <enum name="not_able_remove_bg" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ToggleGroup">
+        <attr name="android:gravity" />
+        <attr name="android:orientation" />
+        <attr name="tg_singleChoice" format="boolean" />
+    </declare-styleable>
+</resources>

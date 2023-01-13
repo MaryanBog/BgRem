@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mime Types -->
+    <string name="mime_type_image_jpeg" translatable="false">image/jpeg</string>
+    <string name="mime_type_image_png" translatable="false">image/png</string>
+    <string name="mime_type_video_mp4" translatable="false">video/mp4</string>
+    <string name="mime_type_video_iphone_segment" translatable="false">video/MP2T</string>
+    <string name="mime_type_video_quicktime" translatable="false">video/quicktime</string>
+    <string name="mime_type_video_av" translatable="false">video/x-msvideo</string>
+    <string name="mime_type_video_webm" translatable="false">video/webm</string>
+    <string name="mime_type_video_mpeg" translatable="false">video/mpeg</string>
+    <string name="mime_type_video_matroska" translatable="false">video/x-matroska</string>
+    <string name="mime_type_video_3GP" translatable="false">video/3gpp</string>
+
+    <!-- File Extensions -->
+    <string name="file_extensions_jpg" translatable="false">.jpg</string>
+    <string name="file_extensions_png" translatable="false">.png</string>
+    <string name="file_extensions_mp4" translatable="false">.mp4</string>
+    <string name="file_extensions_ts" translatable="false">.ts</string>
+    <string name="file_extensions_mov" translatable="false">.mov</string>
+    <string name="file_extensions_avi" translatable="false">.avi</string>
+    <string name="file_extensions_webm" translatable="false">.webm</string>
+    <string name="file_extensions_mpg" translatable="false">.mpg</string>
+    <string name="file_extensions_mkv" translatable="false">.mkv</string>
+    <string name="file_extensions_3gp" translatable="false">.3gp</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="result_media_landscape_height">210dp</dimen>
+    <dimen name="result_media_portrait_height">310dp</dimen>
+    <dimen name="progress_video_line_height">2dp</dimen>
+    <dimen name="frames_video_height">44dp</dimen>
+    <dimen name="text_small">10sp</dimen>
+</resources>

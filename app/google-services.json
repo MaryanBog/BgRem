@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "522072980290",
+    "project_id": "dlv-bgrem",
+    "storage_bucket": "dlv-bgrem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522072980290:android:02fbfca6d04967129366db",
+        "android_client_info": {
+          "package_name": "com.deelvin.bgrem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522072980290-j9532qtl1gpib1ocbljps4rjecg11v4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp8xKzRN4pCik6TU-u3o1Kc_XcQpv3mho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522072980290-j9532qtl1gpib1ocbljps4rjecg11v4p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "522072980290-vtab4ftmdcoej95vuvjke1vum0moe0ik.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deelvin.PersonSegmentation",
+                "app_store_id": "1592658212"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

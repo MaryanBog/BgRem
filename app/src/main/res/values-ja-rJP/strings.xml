@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name" translatable="false">BgRem</string>
+    <string name="app_name_bg" translatable="false">Bg</string>
+
+    <!-- Common -->
+    <string name="common_try_again">実行</string>
+    <string name="common_support_email" translatable="false">support@deelvin.com</string>
+    <string name="common_cancel">キャンセル</string>
+    <string name="common_continue">保存</string>
+    <string name="common_percent" translatable="false">%</string>
+
+    <!-- Common Error -->
+    <string name="common_error_no_internet">インターネットの接続をもう一度確認してからお試しください。</string>
+    <string name="common_error_not_able_remove_bg">BgRemは現在、背景を削除することができません。\nもう一度お試しください。</string>
+    <string name="common_error_something_went_wrong">何らかのエラーが発生しました。</string>
+    <string name="common_error_video_duration">動画の長さは30秒に制限されています</string>
+    <string name="common_error_process_file">何らかのエラーが発生しました。</string>
+    <string name="common_error_save_image_error">保存できません</string>
+    <string name="common_error_save_video_error">保存できません</string>
+    <string name="common_error_download_video_error">何らかのエラーが発生しました。</string>
+    <string name="common_error_download_image_error">何らかのエラーが発生しました。</string>
+    <string name="common_error_email_client_not_found">申し訳ございません。対応するメールアプリを見つけることができませんでした。</string>
+    <string name="common_error_not_found_app_on_device">申し訳ございません。対応するアプリを見つけることができませんでした。</string>
+    <string name="common_error_no_granted_read_storage_permission">ファイルを読み込むには許可が必要です。</string>
+    <string name="common_error_file_not_found">ファイルを見つけることができませんでした。</string>
+    <string name="common_error_no_granted_write_storage_permission">ファイルを書き込むには許可が必要です。</string>
+
+    <!-- Sending -->
+    <string name="sending_subtitle">動画および写真</string>
+    <string name="sending_title">背景の自動削除</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">背景の自動削除</string>
+    <string name="welcome_get_started">開始</string>
+    <string name="welcome_caption">利用を開始すると、次のものに同意したことになります。 利用規約 および プライバシーポリシー  </string>
+    <string name="welcome_terms_and_condition">プライバシーポリシー  </string>
+    <string name="welcome_privacy_policy">利用規約</string>
+
+    <!-- Choose Media -->
+    <string name="choose_media_title">メディアをアップロード</string>
+    <string name="choose_media_video">動画</string>
+    <string name="choose_media_image">写真</string>
+    <string name="choose_media_note">注意　動画の長さは最大30秒に制限されています</string>
+    <string name="choose_media_note_title">注意.</string>
+    <string name="choose_media_gallery">ギャラリー</string>
+    <string name="choose_media_camera">カメラ</string>
+
+    <!-- Sending Media -->
+    <string name="sending_media_video">動画をサーバーに送信中</string>
+    <string name="sending_media_image">写真をサーバーに送信中</string>
+
+    <!-- Select Background -->
+    <string name="select_background_title">背景を選択</string>
+    <string name="select_background_color">色</string>
+    <string name="select_background_your_bg">あなたの背景</string>
+    <string name="select_background_image">画像</string>
+    <string name="select_background_video">動画</string>
+    <string name="select_background_transparent">透明</string>
+    <string name="select_background_upload_bg">背景ファイルをアップロード</string>
+    <string name="select_background_note">注意</string>
+    <string name="select_background_video_duration">動画の長さは30秒に制限されています</string>
+    <string name="select_background_photo">写真</string>
+
+    <!-- Removing Background -->
+    <string name="removing_background">背景を削除中</string>
+    <string name="removing_background_progress" translatable="false">%d%%</string>
+
+    <!-- Background result -->
+    <string name="result_add_new_file">新しいファイルを追加</string>
+    <string name="result_attention_description">ファイルを保存するのをお忘れなく。ページから離れるとファイルは自動的に破棄されます。</string>
+    <string name="result_menu_save">保存する</string>
+    <string name="result_menu_share">共有する</string>
+    <string name="result_menu_share_app">アプリを共有</string>
+    <string name="result_image">あなたの画像</string>
+    <string name="result_video">あなたの動画</string>
+    <string name="result_save_image_success">保存済み</string>
+    <string name="result_save_video_success">保存済み</string>
+
+    <!-- About -->
+    <string name="about_title">BgRemとは</string>
+    <string name="about_description">BgRemは、動画と画像の背景をオンラインで自動的に削除できるツールです。</string>
+    <string name="about_slogan">動画または画像をBgRemで加工！</string>
+    <string name="about_slogan_bold_part">BgRem</string>
+    <string name="about_contact_email">ご質問やご不明な点、ご意見などがございましたらこちらのメールアドレスまでお気軽にお問合せください。support@deelvin.com</string>
+    <string name="about_privacy_policy">プライバシーポリシーを表示</string>
+    <string name="about_version">バージョン %s</string>
+
+    <!-- Capture Media -->
+    <string name="capture_media_recording_duration" translatable="false">00:%02d</string>
+
+    <!--    Tests -->
+    <string name="text_toolbar_test">What is BgRem</string>
+    <string name="title_choose_fragment_test">Upload your media</string>
+    <string name="choose_media_note_test">Note. Clip length limited to 30 seconds</string>
+    <string name="choose_media_gallery_test">Gallery</string>
+    <string name="choose_media_camera_test">Camera</string>
+    <string name="common_cancel_test">Cancel</string>
+    <string name="select_background_note_test">Note</string>
+    <string name="select_background_photo_test">Photo</string>
+    <string name="select_background_video_test">Video</string>
+    <string name="select_background_video_duration_test">Clip length limited to 30 seconds</string>
+
+</resources>

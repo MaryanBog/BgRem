@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name" translatable="false">BgRem</string>
+    <string name="app_name_bg" translatable="false">Bg</string>
+
+    <!-- Common -->
+    <string name="common_try_again">INTENTAR</string>
+    <string name="common_support_email" translatable="false">support@deelvin.com</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_continue">CONTINUAR</string>
+    <string name="common_percent" translatable="false">%</string>
+
+    <!-- Common Error -->
+    <string name="common_error_no_internet">Compruebe la conexión a Internet e inténtelo de nuevo.</string>
+    <string name="common_error_not_able_remove_bg">BgRem no puede eliminar \nel fondo ahora mismo. \nInténtelo de nuevo.</string>
+    <string name="common_error_something_went_wrong">Algo va mal</string>
+    <string name="common_error_video_duration">Duración de video limitada hasta 30 segundos</string>
+    <string name="common_error_process_file">Algo va mal</string>
+    <string name="common_error_save_image_error">No se ha podido guardar</string>
+    <string name="common_error_save_video_error">No se ha podido guardar</string>
+    <string name="common_error_download_video_error">Algo va mal</string>
+    <string name="common_error_download_image_error">Algo va mal</string>
+    <string name="common_error_email_client_not_found">Perdone, no hemos podido encontrar el cliente de correo electrónico en su dispositivo.</string>
+    <string name="common_error_not_found_app_on_device">Perdone, no hemos podido encontrar la aplicación adecuada en su dispositivo. </string>
+    <string name="common_error_no_granted_read_storage_permission">La aplicación necesita obtener la autorización para leer archivos para poder funcionar</string>
+    <string name="common_error_file_not_found">No se ha podido encontrar el archivo en su dispositivo</string>
+    <string name="common_error_no_granted_write_storage_permission">La aplicación requiere obtener la autorización para crear archivos para poner funcionar.</string>
+
+    <!-- Sending -->
+    <string name="sending_subtitle">Video &amp; Foto</string>
+    <string name="sending_title">Eliminación \nautomática de fondo</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Eliminación \nautomática de fondo</string>
+    <string name="welcome_get_started">EMPEZAR</string>
+    <string name="welcome_caption">Al empezar estoy de acuerdo con \nlos Términos de uso y \nla Política de Privacidad</string>
+    <string name="welcome_terms_and_condition">Términos de uso</string>
+    <string name="welcome_privacy_policy">Política de Privacidad</string>
+
+    <!-- Choose Media -->
+    <string name="choose_media_title">Subir sus archivos multimedia</string>
+    <string name="choose_media_video">Video</string>
+    <string name="choose_media_image">Foto</string>
+    <string name="choose_media_note">Nota. La duración de un video se limita hasta 30 segundos</string>
+    <string name="choose_media_note_title">Comentario.</string>
+    <string name="choose_media_gallery">Galería</string>
+    <string name="choose_media_camera">Cámara</string>
+
+    <!-- Sending Media -->
+    <string name="sending_media_video">Enviando el video \nal servidor</string>
+    <string name="sending_media_image">Enviando la foto \nal servidor</string>
+
+    <!-- Select Background -->
+    <string name="select_background_title">Seleccionar el fondo</string>
+    <string name="select_background_color">Color</string>
+    <string name="select_background_your_bg">Su bg</string>
+    <string name="select_background_image">Imagen</string>
+    <string name="select_background_video">Video</string>
+    <string name="select_background_transparent">Transparente</string>
+    <string name="select_background_upload_bg">Cargue el archivo de fondo</string>
+    <string name="select_background_note">Comentario</string>
+    <string name="select_background_video_duration">Duración de video limitada hasta 30 segundos</string>
+    <string name="select_background_photo">Foto</string>
+
+    <!-- Removing Background -->
+    <string name="removing_background">Eliminando \nel fondo</string>
+    <string name="removing_background_progress" translatable="false">%d%%</string>
+
+    <!-- Background result -->
+    <string name="result_add_new_file">Agregar un nuevo archivo</string>
+    <string name="result_attention_description">No olvide descargar sus archivos. \nSe eliminarán automaticamente una vez \nabandonada la página.</string>
+    <string name="result_menu_save">Guardar</string>
+    <string name="result_menu_share">Compartir</string>
+    <string name="result_menu_share_app">Compartir la app</string>
+    <string name="result_image">Su imagen</string>
+    <string name="result_video">Su video</string>
+    <string name="result_save_image_success">Guardado</string>
+    <string name="result_save_video_success">Guardado</string>
+
+    <!-- About -->
+    <string name="about_title">Qué es BgRem</string>
+    <string name="about_description">BgRem es la eliminación \nautomática de fondo de videos \ne imágenes.</string>
+    <string name="about_slogan">Cambie sus videos o imágenes \ncon BgRem!</string>
+    <string name="about_slogan_bold_part">BgRem</string>
+    <string name="about_contact_email">Si tiene cualquier pregunta, duda o idea, comunique \ncon nosotros por support@deelvin.com.</string>
+    <string name="about_privacy_policy">Consulte nuestra Política de Privacidad</string>
+    <string name="about_version">Versión %s</string>
+
+    <!-- Capture Media -->
+    <string name="capture_media_recording_duration" translatable="false">00:%02d</string>
+
+    <!--    Tests -->
+    <string name="text_toolbar_test">What is BgRem</string>
+    <string name="title_choose_fragment_test">Upload your media</string>
+    <string name="choose_media_note_test">Comentario. Duración de video limitada hasta 30 segundos</string>
+    <string name="choose_media_gallery_test">Gallery</string>
+    <string name="choose_media_camera_test">Camera</string>
+    <string name="common_cancel_test">Cancel</string>
+    <string name="select_background_note_test">Comentario</string>
+    <string name="select_background_photo_test">Photo</string>
+    <string name="select_background_video_test">Video</string>
+    <string name="select_background_video_duration_test">Duración de video limitada hasta 30 segundos</string>
+
+</resources>

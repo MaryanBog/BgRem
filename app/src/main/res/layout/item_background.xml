@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundImage"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:foreground="@drawable/fg_item_background"
+    android:foregroundTint="@color/selector_background_image_foreground_color"
+    android:scaleType="centerCrop"
+    app:shapeAppearanceOverlay="@style/Background"
+    app:strokeColor="@color/selector_background_image_stroke_color"
+    app:strokeWidth="4dp"
+    android:padding="1dp"
+    tools:ignore="ContentDescription"
+    tools:src="@tools:sample/avatars" />

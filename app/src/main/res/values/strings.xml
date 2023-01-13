@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name" translatable="false">BgRem</string>
+    <string name="app_name_bg" translatable="false">Bg</string>
+    <string name="app_name_rem" translatable="false">Rem</string>
+
+    <!-- Common -->
+    <string name="common_try_again">Try</string>
+    <string name="common_support_email" translatable="false">support@deelvin.com</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_continue">Continue</string>
+    <string name="common_percent" translatable="false">%</string>
+
+    <!-- Common Error -->
+    <string name="common_error_no_internet">Check internet connection and try again.</string>
+    <string name="common_error_not_able_remove_bg">BgRem is not able to remove the \nbackground at the moment. \nTry again.</string>
+    <string name="common_error_something_went_wrong">Something went wrong</string>
+    <string name="common_error_video_duration">Clip length limited to 30 seconds</string>
+    <string name="common_error_process_file">Failed to process file</string>
+    <string name="common_error_save_image_error">Unable to save</string>
+    <string name="common_error_save_video_error">Unable to save</string>
+    <string name="common_error_download_video_error">Something went wrong</string>
+    <string name="common_error_download_image_error">Something went wrong</string>
+    <string name="common_error_email_client_not_found">Sorry, but we couldn\'t find the email client on your device.</string>
+    <string name="common_error_not_found_app_on_device">Sorry, but we were unable to find an app for this on your device.</string>
+    <string name="common_error_no_granted_read_storage_permission">The application needs permission to read files in order to work</string>
+    <string name="common_error_file_not_found">Failed to find a file on the device</string>
+    <string name="common_error_no_granted_write_storage_permission">The application needs permission to write files in order to work</string>
+
+    <!-- Sending -->
+    <string name="sending_subtitle">Video &amp; Photo</string>
+    <string name="sending_title">Automatic \nbackground removal</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Automatic\nbackground removal</string>
+    <string name="welcome_get_started">Get started</string>
+    <string name="welcome_caption">By getting started I agree with\nTerms and condition and Privacy Policy</string>
+    <string name="welcome_terms_and_condition">Terms and condition</string>
+    <string name="welcome_privacy_policy">Privacy Policy</string>
+
+    <!-- Choose Media -->
+    <string name="choose_media_title">Upload your media</string>
+    <string name="choose_media_video">Video</string>
+    <string name="choose_media_image">Photo</string>
+    <string name="choose_media_note">Note. Clip length limited to 30 seconds</string>
+    <string name="choose_media_note_title">Note.</string>
+    <string name="choose_media_gallery">Gallery</string>
+    <string name="choose_media_camera">Camera</string>
+
+    <!-- Sending Media -->
+    <string name="sending_media_video">Sending video\nto a server</string>
+    <string name="sending_media_image">Sending photo\nto a server</string>
+
+    <!-- Select Background -->
+    <string name="select_background_title">Select background</string>
+    <string name="select_background_color">Color</string>
+    <string name="select_background_your_bg">Your bg</string>
+    <string name="select_background_image">Image</string>
+    <string name="select_background_video">Video</string>
+    <string name="select_background_transparent">Transparent</string>
+    <string name="select_background_upload_bg">Upload background file</string>
+    <string name="select_background_note">Note</string>
+    <string name="select_background_video_duration">Clip length limited to 30 seconds</string>
+    <string name="select_background_photo">Photo</string>
+
+    <!-- Removing Background -->
+    <string name="removing_background">Removing\nbackground</string>
+    <string name="removing_background_progress" translatable="false">%d%%</string>
+
+    <!-- Background result -->
+    <string name="result_add_new_file">Add new file</string>
+    <string name="result_attention_description">Don\’t forget to save your file. It will be discarded automatically when you leave the page</string>
+    <string name="result_menu_save">Save</string>
+    <string name="result_menu_share">Share</string>
+    <string name="result_menu_share_app">Share app</string>
+    <string name="result_image">Your image</string>
+    <string name="result_video">Your video</string>
+    <string name="result_save_image_success">Saved</string>
+    <string name="result_save_video_success">Saved</string>
+
+    <!-- About -->
+    <string name="about_title">What is BgRem</string>
+    <string name="about_description">BgRem is automatic online \nbackground removal on video and \nimages.</string>
+    <string name="about_slogan">Change your video or images \nwith BgRem\!</string>
+    <string name="about_slogan_bold_part">BgRem</string>
+    <string name="about_contact_email">If you have any questions, issues or ideas, reach \nout to us at support@deelvin.com</string>
+    <string name="about_privacy_policy">View our Privacy Policy</string>
+    <string name="about_version">Version %s</string>
+
+    <!-- Capture Media -->
+    <string name="capture_media_recording_duration" translatable="false">00:%02d</string>
+
+    <!--    Tests -->
+    <string name="text_toolbar_test">What is BgRem</string>
+    <string name="title_choose_fragment_test">Upload your media</string>
+    <string name="choose_media_note_test">Note. Clip length limited to 30 seconds</string>
+    <string name="choose_media_gallery_test">Gallery</string>
+    <string name="choose_media_camera_test">Camera</string>
+    <string name="common_cancel_test">Cancel</string>
+    <string name="select_background_note_test">Note</string>
+    <string name="select_background_photo_test">Photo</string>
+    <string name="select_background_video_test">Video</string>
+    <string name="select_background_video_duration_test">Clip length limited to 30 seconds</string>
+    
+    <!--    Compose-->
+    <string name="loading_loading" translatable="false">Loading</string>
+    <string name="capture_video_recording_duration" translatable="false">%02d:%02d</string>
+    <string name="trouble_check_internet_connection" translatable="false">Check internet connection \nand try again</string>
+    <string name="trouble_button_try_again" translatable="false">Try again</string>
+    <string name="trouble_server_error" translatable="false">Server error</string>
+    <string name="welcome_terms_and_user" translatable="false">Terms and user</string>
+    <string name="welcome_and" translatable="false">and</string>
+    <string name="welcome_by_getting_started" translatable="false">By getting started I agree with</string>
+    <string name="welcome_slide_to_remove_background" translatable="false">Slide to remove background</string>
+    <string name="common_photo_and_video" translatable="false">Photo &amp; Video</string>
+    <string name="remove_background" translatable="false">Remove\nbackground</string>
+    <string name="upload_file" translatable="false">Upload file</string>
+    <string name="about_what_is_bgrem" translatable="false">What is BgRem?</string>
+    <string name="about_view_our" translatable="false">View our</string>
+    <string name="about_questions_issues" translatable="false">If you have any questions, issues, or ideas, reach out to us at</string>
+    <string name="about_social_media" translatable="false">Subscribe to our social media:</string>
+    <string name="about_portrait_photo" translatable="false">For portrait photo &amp; video editing only.</string>
+    <string name="about_automatic_background" translatable="false">BgRem is automatic background removal for \nphotos and videos.</string>
+    <string name="portrait_photos_and_videos_only" translatable="false">For portrait photos and videos only</string>
+    <string name="welcome_automatic" translatable="false">Automatic background removal</string>
+    <string name="final_save_file" translatable="false">File saved success</string>
+    <string name="final_your_result" translatable="false">Your result</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="upload_new_file" translatable="false">Upload new file</string>
+
+</resources>

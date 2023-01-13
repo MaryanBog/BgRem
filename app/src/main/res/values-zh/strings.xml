@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name" translatable="false">BgRem</string>
+    <string name="app_name_bg" translatable="false">Bg</string>
+
+    <!-- Common -->
+    <string name="common_try_again">试一下</string>
+    <string name="common_support_email" translatable="false">support@deelvin.com</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_continue">继续</string>
+    <string name="common_percent" translatable="false">%</string>
+
+    <!-- Common Error -->
+    <string name="common_error_no_internet">检查互联网连接，然后重试。</string>
+    <string name="common_error_not_able_remove_bg">BgRem 目前无法移除背景。\n再试一次。</string>
+    <string name="common_error_something_went_wrong">出错了</string>
+    <string name="common_error_video_duration">剪辑长度限制为 30 秒</string>
+    <string name="common_error_process_file">出错了</string>
+    <string name="common_error_save_image_error">无法保存</string>
+    <string name="common_error_save_video_error">无法保存</string>
+    <string name="common_error_download_video_error">出错了</string>
+    <string name="common_error_download_image_error">出错了</string>
+    <string name="common_error_email_client_not_found">对不起，无法在您的设备上找到电子邮件客户端。</string>
+    <string name="common_error_not_found_app_on_device">对不起，无法在您的设备上找到适用的应用程序。</string>
+    <string name="common_error_no_granted_read_storage_permission">本应用程序需要读取文件的权限才能工作</string>
+    <string name="common_error_file_not_found">未能在设备上找到文件</string>
+    <string name="common_error_no_granted_write_storage_permission">本应用程序需要写入文件的权限才能工作</string>
+
+    <!-- Sending -->
+    <string name="sending_subtitle">视频/照片</string>
+    <string name="sending_title">自动背景移除器</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">自动背景移除器</string>
+    <string name="welcome_get_started">开始</string>
+    <string name="welcome_caption">点击开始表示我同意使用条款和隐私政策</string>
+    <string name="welcome_terms_and_condition">隐私政策</string>
+    <string name="welcome_privacy_policy">使用条款</string>
+
+    <!-- Choose Media -->
+    <string name="choose_media_title">上传您的文件</string>
+    <string name="choose_media_video">视频</string>
+    <string name="choose_media_image">照片</string>
+    <string name="choose_media_note">注意 视频长度限制为 30 秒</string>
+    <string name="choose_media_note_title">注意.</string>
+    <string name="choose_media_gallery">视频库</string>
+    <string name="choose_media_camera">照相机</string>
+
+    <!-- Sending Media -->
+    <string name="sending_media_video">正在向服务器发送视频</string>
+    <string name="sending_media_image">正在向服务器发送照片</string>
+
+    <!-- Select Background -->
+    <string name="select_background_title">选择背景</string>
+    <string name="select_background_color">颜色</string>
+    <string name="select_background_your_bg">您的背景</string>
+    <string name="select_background_image">照片</string>
+    <string name="select_background_video">视频</string>
+    <string name="select_background_transparent">透明</string>
+    <string name="select_background_upload_bg">上传背景文件</string>
+    <string name="select_background_note">注意</string>
+    <string name="select_background_video_duration">剪辑长度限制为 30 秒</string>
+    <string name="select_background_photo">照片</string>
+
+    <!-- Removing Background -->
+    <string name="removing_background">背景移除正在进行中</string>
+    <string name="removing_background_progress" translatable="false">%d%%</string>
+
+    <!-- Background result -->
+    <string name="result_add_new_file">添加新文件</string>
+    <string name="result_attention_description">不要忘记保存您的文件。\n当您离开页面时，您的文件会自动丢弃。</string>
+    <string name="result_menu_save">保存</string>
+    <string name="result_menu_share">分享</string>
+    <string name="result_menu_share_app">应用程序分享</string>
+    <string name="result_image">您的照片</string>
+    <string name="result_video">您的视频</string>
+    <string name="result_save_image_success">已保存</string>
+    <string name="result_save_video_success">已保存</string>
+
+    <!-- About -->
+    <string name="about_title">什么是 BgRem？</string>
+    <string name="about_description">BgRem 是视频和照片的自动在线背景移除器</string>
+    <string name="about_slogan">使用BgRem更改您的视频或照片</string>
+    <string name="about_slogan_bold_part">BgRem</string>
+    <string name="about_contact_email">如果您有任何问题或想法，请通过 support@deelvin.com 联系我们</string>
+    <string name="about_privacy_policy">查看我们的隐私政策</string>
+    <string name="about_version">版本 %s</string>
+
+    <!-- Capture Media -->
+    <string name="capture_media_recording_duration" translatable="false">00:%02d</string>
+
+    <!--    Tests -->
+    <string name="text_toolbar_test">What is BgRem</string>
+    <string name="title_choose_fragment_test">Upload your media</string>
+    <string name="choose_media_note_test">Note. Clip length limited to 30 seconds</string>
+    <string name="choose_media_gallery_test">Gallery</string>
+    <string name="choose_media_camera_test">Camera</string>
+    <string name="common_cancel_test">Cancel</string>
+    <string name="select_background_note_test">Note</string>
+    <string name="select_background_photo_test">Photo</string>
+    <string name="select_background_video_test">Video</string>
+    <string name="select_background_video_duration_test">Clip length limited to 30 seconds</string>
+
+</resources>

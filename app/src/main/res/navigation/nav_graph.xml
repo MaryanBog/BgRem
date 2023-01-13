@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeComposeFragment">
+    <fragment
+        android:id="@+id/welcomeComposeFragment"
+        android:name="com.compose.presentation.welcome.WelcomeComposeFragment"
+        android:label="WelcomeComposeFragment">
+        <action
+            android:id="@+id/action_welcomeComposeFragment_to_removeComposeFragment"
+            app:destination="@id/removeComposeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/removeComposeFragment"
+        android:name="com.compose.presentation.remove.RemoveComposeFragment"
+        android:label="RemoveComposeFragment">
+        <action
+            android:id="@+id/action_removeComposeFragment_to_aboutComposeFragment"
+            app:destination="@id/aboutComposeFragment" />
+        <action
+            android:id="@+id/action_removeComposeFragment_to_imageGalleryFragment"
+            app:destination="@id/imageGalleryFragment" />
+        <action
+            android:id="@+id/action_removeComposeFragment_to_videoGalleryFragment"
+            app:destination="@id/videoGalleryFragment" />
+        <action
+            android:id="@+id/action_removeComposeFragment_to_cameraImageFragment"
+            app:destination="@id/cameraImageFragment" />
+        <action
+            android:id="@+id/action_removeComposeFragment_to_cameraVideoFragment"
+            app:destination="@id/cameraVideoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutComposeFragment"
+        android:name="com.compose.presentation.about.AboutComposeFragment"
+        android:label="AboutComposeFragment" />
+    <fragment
+        android:id="@+id/loadingComposeFragment"
+        android:name="com.compose.presentation.loading.LoadingComposeFragment"
+        android:label="LoadingComposeFragment">
+        <action
+            android:id="@+id/action_loadingComposeFragment_to_backgroundsSelectComposeFragment"
+            app:destination="@id/backgroundsSelectComposeFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_loadingComposeFragment_to_troubleServerFragment"
+            app:destination="@id/troubleServerFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_loadingComposeFragment_to_troubleInternetFragment"
+            app:destination="@id/troubleInternetFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/imageGalleryFragment"
+        android:name="com.compose.presentation.gallery.image.ImageGalleryFragment"
+        android:label="ImageGalleryFragment" >
+        <action
+            android:id="@+id/action_imageGalleryFragment_to_loadingComposeFragment"
+            app:destination="@id/loadingComposeFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/backgroundsSelectComposeFragment"
+        android:name="com.compose.presentation.background.BackgroundsSelectComposeFragment"
+        android:label="BackgroundsSelectComposeFragment" >
+        <action
+            android:id="@+id/action_backgroundsSelectComposeFragment_to_foldersBottomSheetComposeFragment"
+            app:destination="@id/foldersBottomSheetComposeFragment"
+            app:enterAnim="@anim/anim_folders_cm"
+            app:exitAnim="@anim/anim_folders_exit_cm"/>
+        <action
+            android:id="@+id/action_backgroundsSelectComposeFragment_to_yourBgImageFragment"
+            app:destination="@id/yourBgImageFragment" />
+        <action
+            android:id="@+id/action_backgroundsSelectComposeFragment_to_yourBgVideoFragment"
+            app:destination="@id/yourBgVideoFragment" />
+        <action
+            android:id="@+id/action_backgroundsSelectComposeFragment_to_loadingFinalComposeFragment"
+            app:destination="@id/loadingFinalComposeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foldersBottomSheetComposeFragment"
+        android:name="com.compose.presentation.background.FoldersBottomSheetComposeFragment"
+        android:label="FoldersBottomSheetComposeFragment" >
+        <action
+            android:id="@+id/action_foldersBottomSheetComposeFragment_to_backgroundsComposeFragment"
+            app:destination="@id/backgroundsComposeFragment"
+            app:enterAnim="@anim/anim_folders_cm"
+            app:exitAnim="@anim/anim_folders_exit_cm"/>
+        <action
+            android:id="@+id/action_foldersBottomSheetComposeFragment_to_backgroundsSelectComposeFragment"
+            app:destination="@id/backgroundsSelectComposeFragment"
+            app:enterAnim="@anim/slide_out_exit_anim"
+            app:exitAnim="@anim/anim_down_to_top_enter_cm"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/backgroundsComposeFragment"
+        android:name="com.compose.presentation.background.BackgroundsComposeFragment"
+        android:label="BackgroundsComposeFragment" >
+        <action
+            android:id="@+id/action_backgroundsComposeFragment_to_foldersBottomSheetComposeFragment"
+            app:destination="@id/backgroundsComposeFragment"
+            app:enterAnim="@anim/slide_out_exit_anim"
+            app:exitAnim="@anim/anim_down_to_top_enter_cm" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoGalleryFragment"
+        android:name="com.compose.presentation.gallery.video.VideoGalleryFragment"
+        android:label="VideoGalleryFragment" >
+        <action
+            android:id="@+id/action_videoGalleryFragment_to_loadingComposeFragment"
+            app:destination="@id/loadingComposeFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cameraImageFragment"
+        android:name="com.compose.presentation.camera.image.CameraImageFragment"
+        android:label="CameraImageFragment" >
+        <action
+            android:id="@+id/action_cameraImageFragment_to_previewImageFragment"
+            app:destination="@id/previewImageFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_cameraImageFragment_to_cameraVideoFragment"
+            app:destination="@id/cameraVideoFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/previewImageFragment"
+        android:name="com.compose.presentation.camera.image.PreviewImageFragment"
+        android:label="PreviewImageFragment" >
+        <action
+            android:id="@+id/action_previewImageFragment_to_loadingComposeFragment"
+            app:destination="@id/loadingComposeFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_previewImageFragment_to_cameraImageFragment"
+            app:destination="@id/cameraImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraVideoFragment"
+        android:name="com.compose.presentation.camera.video.CameraVideoFragment"
+        android:label="CameraVideoFragment" >
+        <action
+            android:id="@+id/action_cameraVideoFragment_to_cameraImageFragment"
+            app:destination="@id/cameraImageFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_cameraVideoFragment_to_loadingComposeFragment"
+            app:destination="@id/loadingComposeFragment"
+            app:popUpTo="@id/removeComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/troubleInternetFragment"
+        android:name="com.compose.presentation.trouble.TroubleInternetFragment"
+        android:label="TroubleInternetFragment" />
+    <fragment
+        android:id="@+id/troubleServerFragment"
+        android:name="com.compose.presentation.trouble.TroubleServerFragment"
+        android:label="TroubleServerFragment" />
+    <fragment
+        android:id="@+id/loadingFinalComposeFragment"
+        android:name="com.compose.presentation.loading.LoadingFinalComposeFragment"
+        android:label="LoadingFinalComposeFragment" >
+        <action
+            android:id="@+id/action_loadingFinalComposeFragment_to_finalComposeFragment"
+            app:destination="@id/finalComposeFragment"
+            app:popUpTo="@id/backgroundsSelectComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_loadingFinalComposeFragment_to_troubleServerFragment"
+            app:destination="@id/troubleServerFragment"
+            app:popUpTo="@id/backgroundsSelectComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+        <action
+            android:id="@+id/action_loadingFinalComposeFragment_to_troubleInternetFragment"
+            app:destination="@id/troubleInternetFragment"
+            app:popUpTo="@id/backgroundsSelectComposeFragment"
+            app:popUpToSaveState="false"
+            app:restoreState="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/yourBgImageFragment"
+        android:name="com.compose.presentation.background.gallery.YourBgImageFragment"
+        android:label="YourBgImageFragment" />
+    <fragment
+        android:id="@+id/yourBgVideoFragment"
+        android:name="com.compose.presentation.background.gallery.YourBgVideoFragment"
+        android:label="YourBgVideoFragment" />
+    <fragment
+        android:id="@+id/finalComposeFragment"
+        android:name="com.compose.presentation.finalFragment.FinalComposeFragment"
+        android:label="FinalComposeFragment" />
+</navigation>

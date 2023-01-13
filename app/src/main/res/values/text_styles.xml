@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="fontStyle">normal</item>
+    </style>
+
+    <style name="Text.Bold">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="fontWeight">600</item>
+        <item name="fontStyle">normal</item>
+    </style>
+
+    <style name="Text.H1">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Text.Bold.H1">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Text.H2">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="Text.Bold.H3">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Body1">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text.Bold.Body2">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Body3">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Body4">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Text.Bold.Body4">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Caption">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Footnote">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Progress">
+        <item name="android:textSize">60sp</item>
+    </style>
+
+</resources>

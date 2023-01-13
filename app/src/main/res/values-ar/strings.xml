@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name" translatable="false">BgRem</string>
+    <string name="app_name_bg" translatable="false">Bg</string>
+
+    <!-- Common -->
+    <string name="common_try_again"> إعادة المحاولة</string>
+    <string name="common_support_email" translatable="false">support@deelvin.com</string>
+    <string name="common_cancel">إلغاء</string>
+    <string name="common_continue">متابعة</string>
+    <string name="common_percent" translatable="false">%</string>
+
+    <!-- Common Error -->
+    <string name="common_error_no_internet">يرجى التحقق من اتصالك بالإنترنت والمحاولة مجددًا.</string>
+    <string name="common_error_not_able_remove_bg">يتعذر على تطبيق BgRem إزالة الخلفية حاليًا. حاول مرة أخرى.</string>
+    <string name="common_error_something_went_wrong">حدث خطأ</string>
+    <string name="common_error_video_duration">مدة المقطع 30 ثانية فقط</string>
+    <string name="common_error_process_file">حدث خطأ</string>
+    <string name="common_error_save_image_error">تعذر الحفظ</string>
+    <string name="common_error_save_video_error">تعذر الحفظ</string>
+    <string name="common_error_download_video_error">حدث خطأ</string>
+    <string name="common_error_download_image_error">حدث خطأ</string>
+    <string name="common_error_email_client_not_found">عذراً, لا يمكن إيجاد  إيميل المستخدم على جهازك</string>
+    <string name="common_error_not_found_app_on_device">عذراً, لا يوجد تطبيق للقيام بهذه المهمّة على جهازك</string>
+    <string name="common_error_no_granted_read_storage_permission">يحتاج التطبيق السماح له بقراءة الملفات لكي يعمل</string>
+    <string name="common_error_file_not_found">فشل في العثور على ملف على الجهاز</string>
+    <string name="common_error_no_granted_write_storage_permission">يحتاج التطبيق السماح له بكتابة الملفات من أجل أن يعمل</string>
+
+    <!-- Sending -->
+    <string name="sending_subtitle">الفيديو والصورة</string>
+    <string name="sending_title">إزالة الخلفية\n تلقائيًا</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">إزالة الخلفية\n تلقائيًا</string>
+    <string name="welcome_get_started">ابدأ الآن</string>
+    <string name="welcome_caption">ببدء الاستخدام الآن أنا أوافق على شروط الاستخدام و سياسة الخصوصية  </string>
+    <string name="welcome_terms_and_condition"> سياسة الخصوصية </string>
+    <string name="welcome_privacy_policy"> شروط الاستخدام</string>
+
+    <!-- Choose Media -->
+    <string name="choose_media_title">تحميل ملفات الوسائط</string>
+    <string name="choose_media_video">فيديو</string>
+    <string name="choose_media_image">صورة</string>
+    <string name="choose_media_note">ملاحظة . مدة المقطع 30 ثانية فقط</string>
+    <string name="choose_media_note_title">ملحوظة.</string>
+    <string name="choose_media_gallery">المعرض</string>
+    <string name="choose_media_camera">الكاميرا</string>
+
+    <!-- Sending Media -->
+    <string name="sending_media_video">جارٍ إرسال الفيديو\n إلى الخادم</string>
+    <string name="sending_media_image">جارٍ إرسال الصورة\n إلى الخادم</string>
+
+    <!-- Select Background -->
+    <string name="select_background_title">تحديد الخلفية</string>
+    <string name="select_background_color">اللون</string>
+    <string name="select_background_your_bg">خلفيتك</string>
+    <string name="select_background_image">صورة</string>
+    <string name="select_background_video">فيديو</string>
+    <string name="select_background_transparent">شفاف</string>
+    <string name="select_background_upload_bg">تحميل ملف الخلفية</string>
+    <string name="select_background_note">ملحوظة</string>
+    <string name="select_background_video_duration">مدة المقطع 30 ثانية فقط</string>
+    <string name="select_background_photo">صورة</string>
+
+    <!-- Removing Background -->
+    <string name="removing_background">جارٍ إزالة الخلفية</string>
+    <string name="removing_background_progress" translatable="false">%d%%</string>
+
+    <!-- Background result -->
+    <string name="result_add_new_file">إضافة ملف جديد</string>
+    <string name="result_attention_description">ا تنسَ حفظ ملفك. إذا غادرت الصفحة، فسيتم تجاهل التغييرات تلقائيًا.</string>
+    <string name="result_menu_save">حفظ</string>
+    <string name="result_menu_share">مشاركة</string>
+    <string name="result_menu_share_app">مشاركة التطبيق</string>
+    <string name="result_image">الصورة خاصتك</string>
+    <string name="result_video">الفيديو خاصتك</string>
+    <string name="result_save_image_success">تم الحفظ</string>
+    <string name="result_save_video_success">تم الحفظ</string>
+
+    <!-- About -->
+    <string name="about_title">نبذة عن تطبيق BgRem</string>
+    <string name="about_description">BgRem تطبيق عبر الإنترنت لإزالة الخلفية من الصور ومقاطع الفيديو\n تلقائيًا.</string>
+    <string name="about_slogan">انفرد بتغيير خلفية الفيديو أو الصورة\n مع BgRem!</string>
+    <string name="about_slogan_bold_part">BgRem</string>
+    <string name="about_contact_email">إذا كان لديك أي أسئلة أو اقتراحات أو\n تواجهك مشكلة، تواصل معنا رجاءً عبر support@deelvin.com</string>
+    <string name="about_privacy_policy">عرض سياسة الخصوصية لدينا</string>
+    <string name="about_version">الإصدار %s</string>
+
+    <!-- Capture Media -->
+    <string name="capture_media_recording_duration" translatable="false">00:%02d</string>
+
+    <!--    Tests -->
+    <string name="text_toolbar_test">What is BgRem</string>
+    <string name="title_choose_fragment_test">Upload your media</string>
+    <string name="choose_media_note_test">Note. Clip length limited to 30 seconds</string>
+    <string name="choose_media_gallery_test">Gallery</string>
+    <string name="choose_media_camera_test">Camera</string>
+    <string name="common_cancel_test">Cancel</string>
+    <string name="select_background_note_test">Note</string>
+    <string name="select_background_photo_test">Photo</string>
+    <string name="select_background_video_test">Video</string>
+    <string name="select_background_video_duration_test">Clip length limited to 30 seconds</string>
+
+</resources>

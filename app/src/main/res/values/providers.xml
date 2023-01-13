@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- File Provider -->
+    <string name="file_provider_authority" translatable="false">com.bgrem.app.fileprovider</string>
+    <string name="file_provider_external_images_dir" translatable="false">media</string>
+</resources>

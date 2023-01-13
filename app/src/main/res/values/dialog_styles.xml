@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="bottomSheetStyle">@style/AppBottomSheetDialogModal</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="materialButtonStyle">@style/AppButton.White</item>
+        <item name="android:statusBarColor">@color/base_white</item>
+        <item name="android:navigationBarColor">@color/base_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppBottomSheetDialogModal" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/AppShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="AppShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">25dp</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+</resources>

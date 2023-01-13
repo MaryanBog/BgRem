@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="privacy_policy" translatable="false">https://bgrem.deelvin.com/privacy_policy/?app=true</string>
+    <string name="terms_of_use" translatable="false">https://bgrem.deelvin.com/terms_of_use/?app=true</string>
+    <string name="play_market" translatable="false">http://play.google.com/store/apps/details?id=%s</string>
+</resources>

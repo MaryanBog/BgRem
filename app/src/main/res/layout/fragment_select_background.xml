@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/loadingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:indicatorColor="@color/accent_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.bgrem.presentation.common.view.ErrorView
+        android:id="@+id/errorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ev_state="no_internet" />
+
+    <View
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/bgTypeTabLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backImage"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_arrow_back"
+        app:iconSize="24dp"
+        app:iconTint="@color/accent_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+
+        android:text="@string/select_background_title"
+        android:textAlignment="center"
+        android:textAppearance="@style/Text.Bold.H1"
+        android:textColor="@color/base_black"
+        app:layout_constraintTop_toBottomOf="@id/backImage" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/previewBgImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_preview_background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/previewImage"
+        app:layout_constraintEnd_toEndOf="@id/previewImage"
+        app:layout_constraintStart_toStartOf="@id/previewImage"
+        app:layout_constraintTop_toTopOf="@id/previewImage"
+        app:shapeAppearanceOverlay="@style/Background.Preview"
+        tools:ignore="ContentDescription"
+        tools:src="@tools:sample/avatars" />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/bgPreviewPlayerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/previewImage"
+        app:layout_constraintEnd_toEndOf="@id/previewImage"
+        app:layout_constraintStart_toStartOf="@id/previewImage"
+        app:layout_constraintTop_toTopOf="@id/previewImage"
+        app:resize_mode="fixed_height"
+        app:shutter_background_color="@color/white"
+        app:use_controller="false" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/previewImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@id/bgTypeTabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        app:shapeAppearanceOverlay="@style/Background.Preview"
+        tools:ignore="ContentDescription"
+        tools:src="@tools:sample/avatars" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/bgTypeTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/bgTypePager"
+        app:tabBackground="@color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/accent_orange"
+        app:tabMaxWidth="0dp"
+        app:tabMode="auto"
+        app:tabPaddingBottom="16dp"
+        app:tabPaddingEnd="24dp"
+        app:tabPaddingStart="24dp"
+        app:tabPaddingTop="16dp"
+        app:tabTextAppearance="@style/Text.Caption"
+        app:tabTextColor="@color/base_black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/bgTypePager"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/continueButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/common_continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/contentGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="titleText,backgroundView,bgTypeTabLayout,continueButton,bgTypePager,previewImage,backImage,previewBgImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
